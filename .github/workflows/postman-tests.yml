@@ -30,7 +30,7 @@ jobs:
           POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
           POSTMAN_COLLECTION_UID: ${{ secrets.POSTMAN_COLLECTION_UID }}
         run: |
-          newman run "${{env.POSTMAN_API_URL}}/collections/${{env.POSTMAN_COLLECTION_UID}}?apikey=${{env.POSTMAN_API_KEY}}"
+          newman run "https://api.getpostman.com/collections/15087666-87e7503f-d67b-4131-904f-d7195910cd3e?apikey=PMAK-65ff0abe8d349500019396af-5b50f89020888dfc3a5c5bd7330031855c"
       # Upload test results to workspace
       - name: Upload Results
         uses: actions/upload-artifact@v3
