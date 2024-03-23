@@ -1,4 +1,4 @@
-# postman-tests.yml
+# postman-tests.yml file
 name: Newman Run
 on:
   push:
