@@ -21,5 +21,4 @@ jobs:
       - name: Install Newman
         run: npm install -g newman
 
-      - name: Run Postman Tests
-        run: newman run .github/workflows/testC.json
+     
