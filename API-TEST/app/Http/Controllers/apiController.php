@@ -8,7 +8,7 @@ class apiController extends Controller
 {
     public function Search_Deliveries(Request $request){
         $json_object=[
-            "name" => "Huz Quraini",
+            "name" => "Huz_Quraini",
             "age" => 27];
             return response()->json([
                 'status' => 'success',
